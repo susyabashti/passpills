@@ -18,7 +18,7 @@ export const Section = () => {
     }, []);
 
     return (
-        <div className="grid gap-5 place-items-center text-center">
+        <div className="grid gap-5 px-5 md:px-0 place-items-center text-center">
             <Title
                 text="A simple password generator."
                 size="text-7xl lg:text-8xl"
