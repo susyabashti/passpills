@@ -19,6 +19,6 @@ export const PasswordField = ({password}:Props) => {
     }, [password])
 
     return (
-        <input onClick={selectPass} type="text" id="password-field" value={password} className="p-4 bg-gray-200 w-96 rounded-full text-center transition focus:outline-none focus:border-sky-600 focus:ring-1 focus:ring-sky-600" readOnly/>
+        <input onClick={selectPass} type="text" id="password-field" value={password} className="p-4 bg-gray-200 w-full sm:w-96 rounded-full text-center transition focus:outline-none focus:border-sky-600 focus:ring-1 focus:ring-sky-600" readOnly/>
     );
 }
