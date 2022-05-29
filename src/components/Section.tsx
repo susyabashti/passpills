@@ -19,11 +19,9 @@ export const Section = () => {
 
     return (
         <div className="grid gap-5 px-5 md:px-0 place-items-center text-center">
-            <Title
-                text="A simple password generator."
-                size="text-7xl lg:text-8xl"
-                customClass="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-teal-400"
-                />
+            <Title size="text-7xl lg:text-8xl">
+                A simple <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-teal-400">password</span> generator.
+            </Title>
             <PasswordField password={password}/>
             <Button passwordFunc={changePassword} text="Generate Password Pill" />
             <Notice />
